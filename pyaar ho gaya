@@ -1,0 +1,8 @@
+import random
+things=['hugs','kiss','chocolate','love','ther sara love']
+p=random.choice(things)
+print("ritik wants",p,"from sanchari")
+l=random.choice(things)
+if(p==l):
+    l=random.choice(things)
+print("and",l)
